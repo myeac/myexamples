@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="circle_dim">40dp</dimen>
+    <dimen name="logo_height">24dp</dimen>
+    <dimen name="logo_width">44dp</dimen>
+    <dimen name="logo_plus_height">24dp</dimen>
+    <dimen name="logo_plus_width">28dp</dimen>
+
+</resources>

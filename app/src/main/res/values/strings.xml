@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppTest</string>
+
+    <!--Trip Details-->
+    <string name="trip_details_title">Detalhe da movimentação</string>
+    <string name="trip_details_sub_delivery">Entrega</string>
+    <string name="trip_details_sub_schedule">Horário</string>
+    <string name="trip_details_sub_delivered">Carro e recebimento</string>
+    <string name="trip_details_sub_car">Carro</string>
+    <string name="trip_details_sub_not_delivered">Carro não entregue</string>
+    <string name="trip_details_status_ok">TUDO CERTO</string>
+    <string name="trip_details_status_error">ALGO DEU ERRADO</string>
+    <string name="trip_details_time">16, Jan de 2020 • 14:53</string>
+    <string name="trip_details_address">Shopping Del Rey</string>
+    <string name="trip_details_time_start">Início</string>
+    <string name="trip_details_time_end">Fim</string>
+    <string name="trip_details_time_text">13:00</string>
+    <string name="trip_details_car_plate">Placa</string>
+    <string name="trip_details_car_plate_text">BQT-952</string>
+    <string name="trip_details_received_by">Recebido por</string>
+    <string name="trip_details_received_by_text">Jaqueline Ribeiro</string>
+    <string name="trip_details_justification">Justificativa</string>
+    <string name="trip_details_justification_text">Avaria</string>
+
+</resources>

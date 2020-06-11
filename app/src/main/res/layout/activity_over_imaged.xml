@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="32dp"
+    app:layoutDescription="@xml/activity_over_imaged_scene"
+    tools:context=".collapseexpand.OverImagedActivity">
+
+    <LinearLayout
+        android:id="@+id/lyContentBalls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/image_azul"
+            android:layout_width="44dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="-28dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_oval_uno"
+            android:elevation="10dp"
+            app:layout_constraintEnd_toStartOf="@id/image_two"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/image_verde"
+            android:layout_width="44dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="-28dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_oval_dos"
+            android:elevation="8dp" />
+
+        <TextView
+            android:id="@+id/image_rojo"
+            android:layout_width="44dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="-28dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_oval_tres"
+            android:elevation="6dp" />
+
+        <TextView
+            android:id="@+id/image_negro"
+            android:layout_width="44dp"
+            android:layout_height="24dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/bg_oval_mais"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lyContentBalls">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_color_azul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color azul" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_color_verde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color verde" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_color_rojo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color rojo" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_color_negro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color negro" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

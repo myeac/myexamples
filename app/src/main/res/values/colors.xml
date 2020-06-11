@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="baseTitleTextColor">#333333</color>
+    <color name="baseSubtitleTextColor">#6c6f81</color>
+
+    <color name="lineViewColor">#33000000</color>
+
+    <color name="status_ok">#00984A</color>
+    <color name="status_error">#CE003C</color>
+
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="deepSeaBlue">#005e83</color>
+    <color name="filters_grey">#7d86a1</color>
+    <color name="tangerine">#ff8700</color>
+    <color name="unregistered_dialog">#000000</color>
+
+</resources>

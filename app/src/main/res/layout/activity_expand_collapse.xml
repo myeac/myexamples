@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    app:layoutDescription="@xml/activity_expand_collapse_scene"
+    tools:context=".collapseexpand.ExpandCollapseActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lyContentBalls"
+        android:layout_width="wrap_content"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_one"
+            android:layout_width="@dimen/circle_dim"
+            android:layout_height="@dimen/circle_dim"
+            app:layout_constraintEnd_toStartOf="@id/image_two"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bg_color_uno" />
+
+        <ImageView
+            android:id="@+id/image_two"
+            android:layout_width="@dimen/circle_dim"
+            android:layout_height="@dimen/circle_dim"
+            app:layout_constraintEnd_toStartOf="@id/image_three"
+            app:layout_constraintStart_toEndOf="@+id/image_one"
+            app:layout_constraintTop_toTopOf="@+id/image_one"
+            app:srcCompat="@drawable/bg_color_dos" />
+
+        <ImageView
+            android:id="@+id/image_three"
+            android:layout_width="@dimen/circle_dim"
+            android:layout_height="@dimen/circle_dim"
+            app:layout_constraintEnd_toStartOf="@id/image_four"
+            app:layout_constraintStart_toEndOf="@+id/image_two"
+            app:layout_constraintTop_toTopOf="@+id/image_two"
+            app:srcCompat="@drawable/bg_color_tres" />
+
+        <ImageView
+            android:id="@+id/image_four"
+            android:layout_width="@dimen/circle_dim"
+            android:layout_height="@dimen/circle_dim"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_three"
+            app:layout_constraintTop_toTopOf="@+id/image_three"
+            app:srcCompat="@drawable/bg_color_mas" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
